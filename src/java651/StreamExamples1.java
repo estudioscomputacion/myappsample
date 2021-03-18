@@ -22,6 +22,8 @@ public class StreamExamples1 {
         Stream<String> empty = Stream.empty(); 				// count = 0
         Stream<Integer> singleElement = Stream.of(1); 		// count = 1
         Stream<Integer> fromArray = Stream.of(1, 2, 3); 	// count = 2
+	    
+	Stream<Integer> fromArray2 = Stream.of(1, 2, 3, 4, 5); 	// new	    
 
         List<String> list = Arrays.asList("a", "b", "c");
         Stream<String> fromList = list.stream();
